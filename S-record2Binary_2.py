@@ -1,6 +1,7 @@
 import os
 import string
 
+# This part will be changed to command parameters.
 target_file_path = 'c:\\Projects\\Chrysler\\Documents\\DSeg\\Lockup_Bootloader'
 file_object = open(os.path.join(target_file_path, 'KL14GP.SW.IC.V51.91.03_NOR_Complete_FF.mhx'), mode='r', buffering=1)
 file_object_bin = open(os.path.join(target_file_path, 'KL14GP.SW.IC.V51.91.03_NOR_Complete_FF.tst'), mode='w', buffering=1)
